@@ -40,7 +40,7 @@ EXPOSE 8080
 
 # running cataline.sh
 # #CMD ["/usr/local/tomcat/bin/catalina.sh", "run"]
-#CMD ["sh","catalina.sh", "run"]
+CMD ["sh","catalina.sh", "run"]
 # #CMD ["/bin/sh"]
 
-WORKDIR /usr/local/tomcat/bin
+#WORKDIR /usr/local/tomcat/bin
