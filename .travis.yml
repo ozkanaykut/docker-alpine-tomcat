@@ -12,7 +12,7 @@ before_install:
 - docker build -t "aykutozkan/alpine-tomcat:8.5.50" .
 - echo "docker images listesi aliniyor"
 - docker images
-- docker run --name alpine-tomcat-demo-01 -p 80:8080 aykutozkan/alpine-tomcat:8.5.50
+- docker run -d --name alpine-tomcat-demo-01 -p 80:8080 aykutozkan/alpine-tomcat:8.5.50
 - echo "docker container listesi aliniyor"
 - docker ps -a
 
