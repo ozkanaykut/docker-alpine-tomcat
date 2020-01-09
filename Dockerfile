@@ -3,10 +3,10 @@ FROM alpine:latest
 MAINTAINER AYKUT OZKAN <aykuttozkan@gmail.com>
 
 # Update system
-RUN ["apk", "update"]
+#RUN ["apk", "update"]
 
 # install openjdk8
-RUN ["apk", "add", "openjdk8"]
+#RUN ["apk", "add", "openjdk8"]
 
 # install nano and tar program
 RUN ["apk", "add", "nano", "tar"]

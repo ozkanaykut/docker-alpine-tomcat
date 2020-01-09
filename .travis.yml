@@ -6,4 +6,4 @@ services:
 - docker
 
 script:
-- sh catalina.sh run
+- echo "merhaba"
