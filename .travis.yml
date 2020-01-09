@@ -14,6 +14,8 @@ before_install:
 - docker images
 - echo "docker container listesi aliniyor"
 - docker ps -a
+- docker run --name alpine-tomcat-demo-01 -p 127.0.0.1:80:8080 aykutozkan/alpine-tomcat:8.5.50 /bin/sh
 
 script:
-- echo "script tag calistirildi"
+- ls -a
+- pwd
