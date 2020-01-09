@@ -18,9 +18,4 @@ before_install:
 
 
 script:
-- docker exec -it alpine-tomcat-demo-01 /bin/sh
-
-after_script:
-- ls
-- pwd
-- exit
+- docker exec -it alpine-tomcat-demo-01 /bin/sh ls && exit
