@@ -2,4 +2,4 @@
 
 # docker-alpine-tomcat
 
-# Jenkins File Dosyası Eklendi.
+# Jenkins File Dosyası Eklendi
