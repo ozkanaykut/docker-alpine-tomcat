@@ -19,5 +19,11 @@ pipeline {
 				sh "docker images"
             }
         }
+    	stage('Finished') {
+            steps {
+                echo 'docker images siliniyor'
+				sh "docker rmi -f jenkins-demo-02"
+            }
+        }
     }
 }
