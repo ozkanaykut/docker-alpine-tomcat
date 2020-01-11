@@ -37,6 +37,8 @@ WORKDIR $USR_LCL_DIR/tomcat/bin
 
 RUN ["/bin/echo","testbranch otomatize kontrolu"]
 
+RUN ["/bin/echo","testbranch merge kontrolu"]
+
 # publish 8080 port
 EXPOSE 8080
 
