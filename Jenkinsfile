@@ -23,6 +23,8 @@ pipeline {
             steps {
                 echo 'docker images siliniyor'
 				sh "docker rmi -f jenkins-demo-02"
+		echo 'proje klasoru siliniyor'
+		    		sh "pwd | rmdir -r "
             }
         }
     }
