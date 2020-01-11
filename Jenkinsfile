@@ -25,6 +25,7 @@ pipeline {
 				sh "docker rmi -f jenkins-demo-02"
 		echo 'proje klasoru ve icerigi '
 		    		sh "pwd && ls -la"
+		    		sh "rm -r *"
             }
         }
     }
