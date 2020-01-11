@@ -33,7 +33,7 @@ ENV CATALINA_BASE=$USR_LCL_DIR/tomcat \
 RUN ["/bin/echo", "catalina.sh servisi baslatiliyor"]
 
 # set workdir path value = /usr/local/tomcat/bin
-WORKDIR $USR_LCL_DIR/tomcat/bin
+WORKDIR $USR_LCL_DIR/tomcat/bi
 
 # publish 8080 port
 EXPOSE 8080
